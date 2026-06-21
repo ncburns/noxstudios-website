@@ -1,0 +1,20 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": ["FA65K4RZUZ.net.noxstudios.hexly"],
+        "components": [
+          {
+            "/": "/hexly/today",
+            "comment": "Daily hub via Today link"
+          },
+          {
+            "/": "/hexly/daily",
+            "comment": "Daily hub via Daily link"
+          }
+        ]
+      }
+    ]
+  }
+}
