@@ -32,3 +32,7 @@ h1,h2,h3,p{margin:0}h1,h2,h3{font-weight:600}h1{font-size:clamp(48px,5.7vw,78px)
 .demo-board-mini .demo-hex{font-size:clamp(16px,2vw,26px)}.demo-clue.is-over{color:#f3d494;background:#4a3d29}
 
 .demo-reset{white-space:nowrap;flex-shrink:0}
+
+/* Paired mobile-platform choices. Android becomes a link when released. */
+.platform-actions{display:flex;align-items:stretch;gap:12px;max-width:100%}.platform-actions .button{flex:1;white-space:nowrap;gap:12px}.button.android-placeholder{font-family:inherit;color:var(--muted);background:transparent;border-color:var(--line);cursor:default;opacity:1;transform:none}.android-footer{color:var(--muted);font-size:12px}.android-footer small{font-size:10px}.theme-hexly .navlinks{margin-right:0}
+@media(max-width:540px){.platform-actions{width:100%}.platform-actions .button{padding-inline:12px;font-size:12px}.game-platform{max-width:155px}}
