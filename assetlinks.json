@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "net.noxstudios.hexly",
+      "sha256_cert_fingerprints": [
+        "D1:99:54:9D:7C:DE:DA:F7:03:76:B4:81:78:79:8C:30:08:CE:11:28:50:FA:30:E1:70:9B:F4:76:0F:6C:B5:D7"
+      ]
+    }
+  }
+]

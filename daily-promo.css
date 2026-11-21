@@ -1,0 +1,16 @@
+.daily-promo{border-block:1px solid var(--line);background:transparent}
+.daily-promo-layout{display:grid;grid-template-columns:1.08fr 1fr;gap:88px;align-items:center}
+.daily-promo-copy .section-lede{font-size:16px;max-width:490px}
+.daily-features{list-style:none;padding:0;margin:28px 0 0;display:grid;gap:12px;color:#bdcbd0;font-size:13px}
+.daily-features li{display:flex;align-items:center;gap:12px}
+.daily-features li::before{content:"";flex:0 0 7px;width:7px;height:7px;background:var(--accent);clip-path:polygon(50% 0,100% 25%,100% 75%,50% 100%,0 75%,0 25%)}
+.daily-promo-card{padding:44px 40px;border:1px solid rgba(160,199,205,.14);border-radius:18px;background:rgba(16,26,32,.55);text-align:center}
+.daily-wordmark{display:flex;justify-content:center;align-items:center;gap:16px;color:#eff3f5;font:750 34px/1 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;letter-spacing:-1.6px}
+.daily-wordmark span{font-size:10px;letter-spacing:2.5px;font-weight:650;color:#91d4d8;border-left:1px solid rgba(160,199,205,.14);padding:9px 0 9px 17px}
+.daily-card-line{font-size:14px;color:#b9c8cd;margin:24px 0 30px}
+.daily-play-button{width:100%;font-size:14px;min-height:56px}
+.daily-address{font-size:12px;letter-spacing:.04em;color:#adced1;margin-top:16px}
+.daily-card-note{font-size:11px;color:#91a1aa;margin-top:8px}
+@media(max-width:1050px){.daily-promo-layout{gap:45px}.daily-promo-card{padding:36px 32px}}
+@media(max-width:800px){.daily-promo-layout{grid-template-columns:1fr;gap:36px}.daily-promo-card{width:100%;max-width:500px;justify-self:center}.daily-promo-copy .section-lede{max-width:600px}}
+@media(max-width:540px){.daily-promo-card{padding:32px 22px}.daily-promo-copy .section-lede{font-size:15px}}
